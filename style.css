@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+}
+ol {
+  list-style-type: none;
+}
+.section-one {
+  background-color: #1f2937;
+}
+.header {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  height: auto;
+  width: 10%;
+}
+.header-links {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.links,
+.contact-one {
+  color: white;
+  text-decoration: none;
+}
+.links:visited {
+  color: green;
+}
+.contact-one {
+  background-color: #3882f6;
+  padding: 10px;
+  border: #3882f6;
+  border-radius: 4px;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.example-img {
+  height: auto;
+  width: 400px;
+  margin: 20px;
+}
+.one-left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.two-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-mid {
+  display: flex;
+  justify-content: space-between;
+}
+.two-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 10px;
+  border-radius: 10px;
+  border-color: green;
+  border-style: solid;
+}
+.section-three {
+  background-color: #e5e7eb;
+}
+.three {
+  margin-left: 24%;
+  margin-right: 24%;
+  display: flex;
+  padding: 20px;
+}
+.quote {
+  font-size: 32pt;
+  font-style: italic;
+  font-weight: lighter;
+}
+.quote-speaker {
+  font-size: 18pt;
+  font-weight: bold;
+}
+.section-four {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.four {
+  margin: 100px;
+}
+.four-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 20px;
+}
+.box-left {
+  color: white;
+}
+.box-right {
+  display: inline-flex;
+  flex-basis: content;
+}
+.contact-button {
+  color: white;
+  background-color: #3882f6;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+.footer {
+  background-color: #1f2937;
+}
+.footer-text {
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
